@@ -1,8 +1,9 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+Algoritmo "programalembretes"
+// Disciplina   : Portugol Estruturas Condicionais e Fluxo de Controle
+// Professor   : Samuel Lisboa
+// Descrição   : O programa atualmente serve para você saber
+// O que tem que fazer, para não usar um bloco de notas
+// Autor(a)    : Gabriel Lisboa
 // Data atual  : 01/03/2025
 Var
 //
