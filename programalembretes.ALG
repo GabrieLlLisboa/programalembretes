@@ -22,7 +22,12 @@ Inicio
    leia (resposta)
 
    auxlembrete <- 1
-
+   se (resposta = "Lembretes") entao
+      EscrevaL ("Você escolheu a opção de Lembretes!")
+      EscrevaL ("Você tem os seguintes lembretes:")
+      para i de 1 ate aux_auxL faca
+         escreval("[", i, "] ", lembretes[i])
+         
    enquanto (respostaalt <> "sair" ) faca
       escrevaL ("Escreva o seu lembrete")
       leia (lembretes[auxlembrete])
@@ -33,11 +38,6 @@ Inicio
    fimenquanto
    aux_auxL <- auxlembrete - 1
 
-   se (resposta = "Lembretes") entao
-      EscrevaL ("Você escolheu a opção de Lembretes!")
-      EscrevaL ("Você tem os seguintes lembretes:")
-      para i de 1 ate aux_auxL faca
-         escreval("[", i, "] ", lembretes[i])
       fimpara
    fimse
 Fimalgoritmo
