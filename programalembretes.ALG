@@ -29,6 +29,7 @@ Inicio
       auxlembrete <- auxlembrete+1
       escrevaL ("Deseja adicionar outro lembrete? (s/sair)")
       leia (respostaalt)
+      respostaalt <- "s"
    fimenquanto
    aux_auxL <- auxlembrete - 1
 
