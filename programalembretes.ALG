@@ -14,7 +14,6 @@ Var
    respostaalt: caractere
 
 Inicio
-   EscrevaL ("Programa Inicializado")
    EscrevaL ("Seja bem-vindo ao programa!")
    EscrevaL ("Para prosseguir, escolha para que você irá usá-lo:")
    EscrevaL ("Lembretes")
