@@ -32,7 +32,7 @@ Inicio
    fimse
 
    se (resposta = "Criar Lembrete") entao
-      respostaalt <- "s"  // Inicializa a variável respostaalt
+      respostaalt <- "s"
 
       enquanto (respostaalt <> "sair" ) faca
          EscrevaL ("Escreva o seu lembrete")
